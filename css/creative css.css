@@ -162,6 +162,15 @@ header .intro-text .intro-heading {
     margin-bottom: 50px;
   }
 }
+.modal-header, h4, .close {
+    background-color: #fec503;
+    color:black !important;
+    text-align: center;
+    font-size: 30px;
+}
+.modal-footer {
+    background-color: #fec503;
+}
 
 .img-centered {
   margin: 0 auto;
@@ -240,7 +249,7 @@ fieldset[disabled] .btn-xl.active {
   max-width: 400px;
   margin: 50px auto 0;
 }
-@media (min-width: 992px) {
+media (min-width: 992px) {
   .about-box {
     margin: 20px auto 0;
   }
@@ -256,7 +265,7 @@ fieldset[disabled] .btn-xl.active {
 .menu-box {
   position: relative;
   display: block;
-  width: 650px;
+  width: max 400px;
   margin: 0 auto;
 }
 .menu-box .menu-box-caption {
@@ -294,7 +303,7 @@ fieldset[disabled] .btn-xl.active {
   font-size: 18px;
 }
 .menu-box:hover .menu-box-caption {
-  opacity: 0.1;
+  opacity: 1;
 }
 @media (min-width: 768px) {
   .menu-box .menu-box-caption .menu-box-caption-content .menu-name {

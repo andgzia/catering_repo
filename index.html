@@ -4,7 +4,9 @@
 <head>
   <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
   <title> &hearts; <i class="fa fa-heart"></i>Party Platters &amp; Caterers &reg;</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+	<!-- Bootstrap Core CSS -->
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css"/>
+	<!-- Custom CSS -->
 	<link rel="stylesheet" href="css/creative css.css" type="text/css"/>
 
     <!-- Custom Fonts -->
@@ -18,11 +20,23 @@
 	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"/>
 
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css"/>
+	
+	<!--BS modal login-->
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css"/>
 
 	<script src="js/jquery-1.12.1.min.js"></script>
 	<script src="js/script.js" type="text/javascript"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 
  </head>
 
@@ -54,13 +68,13 @@
 	    	    	<a class="page-scroll" href="#menu">Menu</a>
 	    	     </li>
 			 	<li>
-				 	<a class="page-scroll" href="#about">About</a>
+				 	<a class="page-scroll" href="#contact">About</a>
 			     </li>
 				<li>
-				 	<a class="page-scroll" href="#menu">Menu</a>
+				 	<a class="page-scroll" href="#login">Menu</a>
 				 </li>
 				<li>
-				 	<a class="page-scroll" href="#contact">Contact</a>
+				 	<a class="page-scroll" href="#myorder">Contact</a>
 				 </li>
 				</ul>
 			  </div>
@@ -72,7 +86,8 @@
 	       <div class="intro-text">
                 <div class="intro-lead-in">Welcome to Party Platters &amp; Caterers &reg;</div>
                 <div class="intro-heading">Let's Get The Party Started!</div>
-                <a href="#about" class="page-scroll btn btn-xl"><i class="fa fa-4x fa-glass wow bounceIn text-primary"></i></a>
+                <a href="#about" class="page-scroll btn btn-xl">
+                <i class="fa fa-4x fa-glass wow bounceIn text-primary" color: "black"></i></a>
                 <!--<i class="fa fa-cutlery">-->
             </div>
          </div>
@@ -141,10 +156,10 @@
                         <img src="img/veg vol.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
                             <div class="menu-box-caption-content">
-                                <div class="menu-name text-faded">
+                                <div class="menu-name">
                                     Deep-Filled Vol-Au-Vents
                                 </div>
-                                <div class="menu-detail">
+                                <div class="menu-detail text-faded">
                                     Mouthwatering light puff pastry cases are deliciously filled with chicken 
                                     and asparagus, Lochmuir™; salmon and watercress and bacon and mushroom
                                 </div>
@@ -158,10 +173,10 @@
                         <img src="img/asian style chicken lollipop.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
                             <div class="menu-box-caption-content">
-                                <div class="menu-name text-faded">
+                                <div class="menu-name">
                                     Chicken Lollipops
                                 </div>
-                                <div class="menu-detail">
+                                <div class="menu-detail text-faded">
                                     Succulent British chicken blended with red pepper and spring onion with a sweet sticky soy 
                                     and plum glaze and a crunchy topping.                               
                               	</div>
@@ -175,10 +190,10 @@
                         <img src="img/italian breaad seletion.jpg"class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
                             <div class="menu-box-caption-content">
-                                <div class="menu-name text-faded">
+                                <div class="menu-name">
                                     Italian Bread Selection
                                 </div>
-                                <div class="menu-detail">
+                                <div class="menu-detail text-faded">
                                     A combination of mixed olive rolls, classic ciabata and a trio of focaccia buns 
                                     makes this the ideal bread selection for 6-8 guests
                                 </div>
@@ -192,10 +207,10 @@
                         <img src="img/luxury canape selections.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
                             <div class="menu-box-caption-content">
-                                <div class="menu-name text-faded">
+                                <div class="menu-name">
                                     Luxury Canape
                                 </div>
-                                <div class="menu-detail">
+                                <div class="menu-detail text-faded">
                                     Mini bread bites topped with brie smoked bacon and grape, Wensleydale cheese 
                                     and carrot chutney, smoked Lochmuir™ salmon, in cream
                                 </div>
@@ -209,10 +224,10 @@
                         <img src="img/quiche bites.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
                             <div class="menu-box-caption-content">
-                                <div class="menu-name text-faded">
+                                <div class="menu-name">
                                     Quiche Bites
                                 </div>
-                                <div class="menu-detail">
+                                <div class="menu-detail text-faded">
                                     Delicious squares of popular quiche recipes: 
                                     Quiche Lorraine, cheese and onion and broccoli and tomato quiche bites
                                 </div>
@@ -226,10 +241,10 @@
                         <img src="img/jumbo breaded tiger prawn.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
                             <div class="menu-box-caption-content">
-                                <div class="menu-name text-faded">
+                                <div class="menu-name">
                                     Jumbo Tiger Prawn
                                 </div>
-                                <div class="menu-detail">
+                                <div class="menu-detail text-faded">
                                     Breaded king prawns coated in crunchy golden breadcrumbs
                                 </div>
                             </div>
@@ -242,10 +257,10 @@
                         <img src="img/kebabs.jpg"class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
                             <div class="menu-box-caption-content">
-                                <div class="menu-name text-faded">
+                                <div class="menu-name">
                                     Chicken Kebab
                                 </div>
-                                <div class="menu-detail">
+                                <div class="menu-detail text-faded">
                                     Chorizo kebabs and chicken kebabs in Moroccan, Asian and Persian styles  
                                 </div>
                             </div>
@@ -258,10 +273,10 @@
                         <img src="img/Large sushi plates.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
                             <div class="menu-box-caption-content">
-                                <div class="menu-name text-faded">
+                                <div class="menu-name">
                                     Large Sushi Plate
                                 </div>
-                                <div class="menu-detail">
+                                <div class="menu-detail text-faded">
                                     Large Sushi Platter with soy sauce, wasabi and pickled ginger 
                                 </div>
                             </div>
@@ -274,11 +289,28 @@
                         <img src="img/chicken yakitori kebabs.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
                             <div class="menu-box-caption-content">
-                                <div class="menu-name text-faded">
+                                <div class="menu-name">
                                     Chicken Yakitori
                                 </div>
-                                <div class="menu-detail">
+                                <div class="menu-detail text-faded">
                                     Succulent British chicken marinated in a sticky soy, mirin and sake glaze
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="menu-box">
+                        <img src="img/whole fillets of beef.jpg"class="img-responsive img-centered" alt=""/>
+                        <div class="menu-box-caption">
+                            <div class="menu-box-caption-content">
+                                <div class="menu-name">
+                                    Fillet of Beef
+                                </div>
+                                <div class="menu-detail text-faded">
+									A whole fillet of British beef that's been matured for a minimum of 10 days 
+									for one of the most succulent cuts you can buy
                                 </div>
                             </div>
                         </div>
@@ -290,10 +322,10 @@
                         <img src="img/Dressed Canadian Lobsters.jpg"class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
                             <div class="menu-box-caption-content">
-                                <div class="menu-name text-faded">
+                                <div class="menu-name">
                                    Canadian Lobsters 
                                 </div>
-                                <div class="menu-detail">
+                                <div class="menu-detail text-faded">
                                    Succulent lobster halves are topped with a luxurious lobster mousse and garnished with fresh asparagus 
                                 </div>
                             </div>
@@ -306,10 +338,10 @@
                         <img src="img/Wing rib of beef.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
                             <div class="menu-box-caption-content">
-                                <div class="menu-name text-faded">
+                                <div class="menu-name">
                                     Wing Rib of Beef
                                 </div>
-                                <div class="menu-detail">
+                                <div class="menu-detail text-faded">
                                     Our Bone Wing Rib of Beef is prepared and trimmed by skilled butchers and 
                                     dry aged for 28 days to make it wonderfully tender and succulent
                                 </div>
@@ -323,11 +355,12 @@
                         <img src="img/salmon terrine.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
                             <div class="menu-box-caption-content">
-                                <div class="menu-name text-faded">
+                                <div class="menu-name">
                                     Salmon Terrine
                                 </div>
-                                <div class="menu-detail">
-                                    
+                                <div class="menu-detail text-faded">
+                                    Scottish lochmuir™ salmon terrine, topped with oak smoked salmon and 
+                                    hand garnished with a soft cheese mousse and king prawns.
                                 </div>
                             </div>
                         </div>
@@ -339,10 +372,10 @@
                         <img src="img/prawn dimsum selections.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
                             <div class="menu-box-caption-content">
-                                <div class="menu-name text-faded">
+                                <div class="menu-name">
                                     Prawn Dimsum Selection
                                 </div>
-                                <div class="menu-detail">
+                                <div class="menu-detail text-faded">
                                     
                                 </div>
                             </div>
@@ -355,10 +388,10 @@
                         <img src="img/Beef Wellingtons.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
                             <div class="menu-box-caption-content">
-                                <div class="menu-name text-faded">
+                                <div class="menu-name">
                                     Beef Wellingtons
                                 </div>
-                                <div class="menu-detail">
+                                <div class="menu-detail text-faded">
                                     Individual beef Wellingtons – meltingly tender beef fillet, rich mushroom and chicken liver pate duxelle, wrapped in buttery puff
                                 </div>
                             </div>
@@ -371,10 +404,10 @@
                         <img src="img/petite assortments.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
                             <div class="menu-box-caption-content">
-                                <div class="menu-name text-faded">
+                                <div class="menu-name">
                                     Petite Assortments
                                 </div>
-                                <div class="menu-detail">
+                                <div class="menu-detail text-faded">
                                    Irresistible combination of chocolate nibbles, 
                                    16 little squares of millionaire's shortbread and 16 triple chocolate tiffins
                                 </div>
@@ -383,32 +416,15 @@
                     </a>
                 </div>
 				
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="menu-box">
-                        <img src="img/whole fillets of beef.jpg"class="img-responsive img-centered" alt=""/>
-                        <div class="menu-box-caption">
-                            <div class="menu-box-caption-content">
-                                <div class="menu-name text-faded">
-                                    Fillet of Beef
-                                </div>
-                                <div class="menu-detail">
-									A whole fillet of British beef that's been matured for a minimum of 10 days 
-									for one of the most succulent cuts you can buy
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
 				<div class="col-lg-4 col-sm-6">
                     <a href="#" class="menu-box">
                         <img src="img/mini wrap slices.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
                             <div class="menu-box-caption-content">
-                                <div class="menu-name text-faded">
+                                <div class="menu-name">
                                   	Mini Wrap Slices  
                                 </div>
-                                <div class="menu-detail">
+                                <div class="menu-detail text-faded">
                                     Mouthwatering mini wrap slices in four varieties: 
                                     Hoisin duck, chicken fajita, Mexican three-bean, plus chicken ceasar
                                 </div>
@@ -422,10 +438,10 @@
                         <img src="img/mini fresh fruit tartlets.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
                             <div class="menu-box-caption-content">
-                                <div class="menu-name text-faded">
+                                <div class="menu-name">
                                    Mini Fruit Tartlets
                                 </div>
-                                <div class="menu-detail">
+                                <div class="menu-detail text-faded">
                                    These gorgeous all-butter tartlets are filled with a rich, 
                                    thick crème pâtissière and a colourful selection of fresh fruit
                                 </div>
@@ -439,10 +455,10 @@
                         <img src="img/petite pattiserie.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
                             <div class="menu-box-caption-content">
-                                <div class="menu-name text-faded">
+                                <div class="menu-name">
                                     Petite Patisserie
                                 </div>
-                                <div class="menu-detail">
+                                <div class="menu-detail text-faded">
                                     A truly scrumptious collection of 20 handcrafted sweet treats made with fresh cream 
                                 </div>
                             </div>
@@ -455,10 +471,10 @@
                         <img src="img/mini jellies.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
                             <div class="menu-box-caption-content">
-                                <div class="menu-name text-faded">
+                                <div class="menu-name">
                                     Fruity Jellies
                                 </div>
-                                <div class="menu-detail">
+                                <div class="menu-detail text-faded">
                                     Light and refreshing jellies in two fab flavours - raspberry and orange
                                 </div>
                             </div>
@@ -471,10 +487,10 @@
                         <img src="img/cheesecake bites.jpg"class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
                             <div class="menu-box-caption-content">
-                                <div class="menu-name text-faded">
+                                <div class="menu-name">
                                     Cheesecake Bites
                                 </div>
-                                <div class="menu-detail">
+                                <div class="menu-detail text-faded">
                                     A selection of mini raspberry and white chocolate cheesecakes and mini chocolate chunk cheesecakes
                                 </div>
                             </div>

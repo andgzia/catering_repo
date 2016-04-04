@@ -116,14 +116,14 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-default .navbar-toggle {
   background-color: #fed136;
-  border-color: #fed136;
+  border-color: #FF9900;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color:white;
+  background-color:#fed136;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #fed136;
+  background-color: #FF9900;
 }
 .navbar-default .nav li a {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -134,7 +134,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
-  color: #fec503;
+  color: #fed136;
   outline: none;
 }
 .navbar-default .navbar-nav > .active > a {

@@ -11,10 +11,14 @@
   <title> &hearts; <i class="fa fa-heart"></i>Party Platters &amp; Caterers &reg;</title>
 	<!-- Bootstrap Core CSS -->
 	<link rel="stylesheet" href="css/bootstrap.css" type="text/css"/>
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+
 	<!-- Custom CSS -->
 	<link rel="stylesheet" href="css/creative css.css" type="text/css"/>
-	<link rel="stylesheet" href="js/customjs.js" type="text/css"/>
+	<link rel="stylesheet" href="css/custom.css"type="text/css"/>
 	<link rel="stylesheet" href="js/jquery-1.11.0.min.js"type="text/css"/>
+	<link rel="stylesheet" href="css/animate.min.css"type="text/css"/>
+
     <!-- Custom Fonts -->
    	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css"/>
@@ -179,6 +183,8 @@
 		 </div>
 		</div>
 	</section>		 
+
+<!--MENU-->
 		 
  	<section class="no-padding" id="menu">
         <div class="container-fluid">
@@ -556,6 +562,7 @@
         </div>
     </section>
 
+<!--LOGIN-->
  	
 	<section id="login">
 
@@ -633,6 +640,96 @@
 	 </div>
 	 </div>	
 	 </section>
+
+<!---SHOPPING CART-->
+
+<!--		
+		<nav class="navbarSC">
+			<div class="container">
+				<a class="navbar-brand" href="#">Party Platters &amp; Caterers &reg;</a>
+				<div class="navbar-right">
+					<div class="container minicart"></div>
+				</div>
+			</div>
+		</nav>
+-->		
+		<div class="container-fluid breadcrumbBox text-center">
+			<ol class="breadcrumb">
+				<li class="active"><a href="#shoppingcart">Shopping Cart</a></li>
+				<li><a href="#payment">Payment</a></li>
+			</ol>
+		</div>
+		
+		<div class="container text-center">
+
+			<div class="col-md-5 col-sm-12">
+				<div class="bigcart"></div>
+				<h1>Your shopping cart</h1>
+				<p>
+				</p>
+			</div>
+			
+			<div class="col-md-7 col-sm-12 text-left">
+				<ul>
+					<li class="row list-inline columnCaptions">
+						<span>QTY</span>
+						<span>ITEM</span>
+						<span>Price</span>
+					</li>
+					<li class="row">
+						<span class="quantity">1</span>
+						<span class="itemName">Salmon Terrine</span>
+						<span class="popbtn"><a class="arrow"></a></span>
+						<span class="price">IDR 180,000</span>
+					</li>
+					<li class="row">
+						<span class="quantity">3</span>
+						<span class="itemName">Petite Patisserie</span>
+						<span class="popbtn"><a class="arrow"></a></span>
+						<span class="price">IDR 360,000</span>
+					</li>
+					<li class="row">
+						<span class="quantity">20</span>
+						<span class="itemName">Meatball Lollipops</span>
+						<span class="popbtn"><a class="arrow"></a></span>
+						<span class="price">IDR 119.000</span>				
+					</li>
+					<li class="row">
+						<span class="quantity">18</span>
+						<span class="itemName">Pound of beef</span>
+						<span class="popbtn"><a class="arrow"></a></span>
+						<span class="price">IDR 269,000</span>
+					</li>
+					<li class="row">
+						<span class="quantity">1</span>
+						<span class="itemName">xxxx</span>
+						<span class="popbtn"  data-parent="#asd" data-toggle="collapse" data-target="#demo"><a class="arrow"></a></span>
+						<span class="price">IDR 450,000</span>				
+					</li>
+					<li class="row totals">
+						<span class="itemName">Total:</span>
+						<span class="price">$1694.43</span>
+						<span class="order"> <a class="text-center">ORDER</a></span>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+
+		<!-- The popover content -->
+
+		<div id="popover" style="display: none">
+			<a href="#"><span class="glyphicon glyphicon-pencil"></span></a>
+			<a href="#"><span class="glyphicon glyphicon-remove"></span></a>
+		</div>
+		
+		<!-- JavaScript includes -->
+
+		<script src="js/jquery-1.11.0.min.js"></script> 
+		<script src=""></script>
+		<script src="js/customjs.js"></script>
+	
+<!--FOOTER-->
 	
     <footer>
         <div class="container">
@@ -704,7 +801,7 @@
 
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="js/jquery-1.11.0.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>

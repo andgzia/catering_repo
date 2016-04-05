@@ -8,7 +8,7 @@
   <meta name="description" content=""/>
   <meta name="author" content=""/>
   <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-  <title> &hearts; <i class="fa fa-heart"></i>Party Platters &amp; Caterers &reg;</title>
+  <title> &hearts; Party Platters &amp; Caterers &reg;</title>
 	<!-- Bootstrap Core CSS -->
 	<link rel="stylesheet" href="css/bootstrap.css" type="text/css"/>
 	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
@@ -18,6 +18,11 @@
 	<link rel="stylesheet" href="css/custom.css"type="text/css"/>
 	<link rel="stylesheet" href="js/jquery-1.11.0.min.js"type="text/css"/>
 	<link rel="stylesheet" href="css/animate.min.css"type="text/css"/>
+
+	<!-- link shopping cart -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
+	<link rel="stylesheet" type="text/css" href="../catering_repo/css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="../catering_repo/css/custom.css"/>	
 
     <!-- Custom Fonts -->
    	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
@@ -51,19 +56,22 @@
 	
 	.nav_color {
 		background-color: black;
+		background-opacity: 0.5;
 		border-color: transparent;
 		}
 	.page-scroll { 
 		color: red; 
 		}
 	.navbar-default .navbar-brand {
-  		color: #fed136;}
+  		color: #fed136;
+  		font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+		}
 	.navbar-default .navbar-brand:hover,
 	.navbar-default .navbar-brand:focus,
 	.navbar-default .navbar-brand:active,
 	.navbar-default .navbar-brand.active {
-		color:#fec136;
-		}
+		color:#FFAC00;
+	}
 	.navbar-default .nav li a {
 		color: #fed136;
 		}
@@ -108,9 +116,9 @@
 				 	<a class="page-scroll" href="#login">Login</a>
 				 </li>
 				<li>
-				 	<a class="page-scroll" href="../shoppingcart/shopping cart web.html" 
+				 	<a class="page-scroll" href="#shoppingcart"
 				 		class="btn btn-info btn-lg"> Shopping Cart
-          				<span class="glyphicon glyphicon-glass"></span></a>
+          				<span class="glyphicon glyphicon-shopping-cart"></span></a>
 				 </li>
 				</ul>
 			  </div>
@@ -119,11 +127,12 @@
 
 	<header>
 		<div class="container">  
-	       <div class="intro-text">
-                <div class="intro-lead-in">Welcome to Party Platters &amp; Caterers &reg;</div>
+	       <div class="intro-text">Welcome to
+                <div class="intro-lead-in"> 
+                <b>Party Platters &amp; Caterers &reg;</b></div> 
                 <div class="intro-heading">Let's Get The Party Started!</div>
                 <a href="#menu" class="page-scroll btn btn-xl" icon-size="30px">
-                <span class="glyphicon glyphicon-shopping-cart"></span></a>
+                <span class="glyphicon glyphicon-glass"></span></a>
                 <!--<i class="fa fa-cutlery">-->
             </div>
          </div>
@@ -136,7 +145,7 @@
  	  			<h2> Party Platters &amp; Caterers &reg; </h2> 
  	  			<hr class="primary"> </hr>
 	 	  			<p class="text-muted">
-	 	  			creates classic and contemporary culinary experiences for weddings, birthdays 
+	 	  			Creates classic and contemporary culinary experiences for weddings, birthdays 
 	 	  			 and other social events that will entertain and engage your guests.
 					<br>Party Platters &amp; Caterers &reg; offers full service catering and 
 					 event production featuring the influence of world-renowned chefs at our fingertips. </br>
@@ -556,7 +565,7 @@
                 </div>
                 <div class="col-lg-4 text-center">
                     <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="mailto:your-email@your-domain.com">feedback@partyplatterscaterers.com</a></p>
+                    <p><a href="mailto:enquiries@partyplatterscaterers.com">feedback@partyplatterscaterers.com</a></p>
                 </div>
             </div>
         </div>
@@ -565,7 +574,8 @@
 <!--LOGIN-->
  	
 	<section id="login">
-
+ 	<div class="container">
+    
 	<div id="login-form">
 	 <input type="radio" checked id="login" name="switch" class="hide"/>
 	 <input type="radio" id="signup" name="switch" class="hide"/>
@@ -580,7 +590,7 @@
 
    <div class="section-out">
 	<section class="login-section">
-		 <div class="login">
+		 <div class="log-in">
 		  <form action="">
 			<ul class="ul-list">
 			 <li><input type="email" required class="input" placeholder="Your Email"/>
@@ -596,7 +606,7 @@
 			 		<label>Remember Me</label>
 			 	 </span>
 			 	 <span class="remember">
-			 	 	<a href="">Forget Password</a>
+			 	 	<a href="#">Forget Password</a>
 			 	 </span></li>
 			 <li><input type="submit" value="SIGN IN" class="btn"/></li>
 			</ul>
@@ -611,7 +621,7 @@
 		</div>	 
 	 </section>
 	<section class="signup-section">
-		<div class="login">
+		<div class="log-in">
 		 <form action="">
 			<ul class="ul-list">
 				<li><input type="email" required class="input" placeholder="Your Email"/>
@@ -639,6 +649,7 @@
 		</section>
 	 </div>
 	 </div>	
+	</div>
 	 </section>
 
 <!---SHOPPING CART-->
@@ -653,6 +664,7 @@
 			</div>
 		</nav>
 -->		
+	<section id="shoppingcart">
 		<div class="container-fluid breadcrumbBox text-center">
 			<ol class="breadcrumb">
 				<li class="active"><a href="#shoppingcart">Shopping Cart</a></li>
@@ -677,38 +689,38 @@
 						<span>Price</span>
 					</li>
 					<li class="row">
+						<span class="popbtn"><a class="arrow"></a></span>
 						<span class="quantity">1</span>
 						<span class="itemName">Salmon Terrine</span>
-						<span class="popbtn"><a class="arrow"></a></span>
 						<span class="price">IDR 180,000</span>
 					</li>
 					<li class="row">
+						<span class="popbtn"><a class="arrow"></a></span>
 						<span class="quantity">3</span>
 						<span class="itemName">Petite Patisserie</span>
-						<span class="popbtn"><a class="arrow"></a></span>
 						<span class="price">IDR 360,000</span>
 					</li>
 					<li class="row">
+						<span class="popbtn"><a class="arrow"></a></span>
 						<span class="quantity">20</span>
 						<span class="itemName">Meatball Lollipops</span>
-						<span class="popbtn"><a class="arrow"></a></span>
 						<span class="price">IDR 119.000</span>				
 					</li>
 					<li class="row">
+						<span class="popbtn"><a class="arrow"></a></span>
 						<span class="quantity">18</span>
 						<span class="itemName">Pound of beef</span>
-						<span class="popbtn"><a class="arrow"></a></span>
 						<span class="price">IDR 269,000</span>
 					</li>
 					<li class="row">
+						<span class="popbtn"  data-parent="#asd" data-toggle="collapse" data-target="#demo"><a class="arrow"></a></span>
 						<span class="quantity">1</span>
 						<span class="itemName">xxxx</span>
-						<span class="popbtn"  data-parent="#asd" data-toggle="collapse" data-target="#demo"><a class="arrow"></a></span>
 						<span class="price">IDR 450,000</span>				
 					</li>
 					<li class="row totals">
 						<span class="itemName">Total:</span>
-						<span class="price">$1694.43</span>
+						<span class="price">IDR 1694.000</span>
 						<span class="order"> <a class="text-center">ORDER</a></span>
 					</li>
 				</ul>
@@ -726,7 +738,7 @@
 		<!-- JavaScript includes -->
 
 		<script src="js/jquery-1.11.0.min.js"></script> 
-		<script src=""></script>
+		<script src="js/bootstrap.min.js"></script>
 		<script src="js/customjs.js"></script>
 	
 <!--FOOTER-->
@@ -739,15 +751,15 @@
                  </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a>
-                         </li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a>
-                         </li>
-                        <li><a href="#"><i class="fa fa-instagram"></i></a> 
+                    	<li><a href="www.facebook.com/" ><i class="fa fa-facebook"></i></a>
 						 </li>
-                        <li><a href="#"><i class="fa fa-google-plus"></i></a>
-                         </li>
-                        <li><a href="#"><i class="fa fa-pinterest-p"></i></a>
+						<li><a href="www.twitter.com/" ><i class="fa fa-twitter"></i></a>
+						 </li>
+						<li><a href="www.instagram.com/" ><i class="fa fa-instagram"></i></a>
+						 </li>
+						<li><a href="www.google-plus.com/" class="gp"><i class="fa fa-google-plus"></i></a>
+						 </li>
+						<li><a href="www.pinterest.com/" class="in"><i class="fa fa-pinterest-p"></i></a>
                          </li>                        
                      </ul>
                  </div>

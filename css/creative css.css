@@ -10,7 +10,7 @@ body {
   color: #fed136;
 }
 p {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.75;
 }
 a,
@@ -43,12 +43,12 @@ h6 {
   margin: 0 auto;
 }
 
-<!--.btn {
+.btn {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;  border: none;
   border-radius: 300px;
   font-weight: 700;
   text-transform: uppercase;
-}-->
+}
 .btn-xl {
   color: #ffffff;
   background-color: #fed136;
@@ -94,7 +94,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .btn-xl .badge {
   color: #fed136;
-  background-color: #ffffff;
+  background-color: #222222;
 }
 
 .navbar-default {
@@ -109,7 +109,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-  color: #fec503;
+  color: #FFAC00;
 }
 .navbar-default .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
@@ -134,7 +134,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
-  color: #fed136;
+  color: #FFAC00;
   outline: none;
 }
 .navbar-default .navbar-nav > .active > a {
@@ -145,12 +145,12 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: white;
-  background-color: #fec503;
+  background-color: #FFAC00;
 }
 @media (min-width: 768px) {
   .navbar-default {
-    background-color: transparent;
-    padding: 25px 0;
+    background-color: black;
+    padding: 15px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
@@ -163,11 +163,11 @@ fieldset[disabled] .btn-xl.active {
     transition: all 0.3s;
   }
   .navbar-default .navbar-nav > .active > a {
-    border-radius: 3px;
+    border-radius: 2px;
   }
   .navbar-default.navbar-shrink {
     background-color: #222222;
-    padding: 10px 0;
+    padding: 5px 0;
   }
   .navbar-default.navbar-shrink .navbar-brand {
     font-size: 1.5em;
@@ -183,11 +183,13 @@ header {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  background-position:center;
   text-align: center;
   color: white;
+  margin-bottom:50px;
 }
 header .intro-text {
-  padding-top: 50px;
+  padding-top: 250px;
   padding-bottom: 50px;
 }
 header .intro-text .intro-lead-in {
@@ -201,14 +203,15 @@ header .intro-text .intro-heading {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 33px;
   line-height: 10px;
   margin-bottom: 25px;
 }
 @media (min-width: 768px) {
   header .intro-text {
-    padding-top: 300px;
+    padding-top: 150px;
     padding-bottom: 200px;
+    font-size: 28px;
   }
   header .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -221,8 +224,8 @@ header .intro-text .intro-heading {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 75px;
-    line-height: 75px;
+    font-size: 70px;
+    line-height: 65px;
     margin-bottom: 50px;
   }
 }
@@ -247,30 +250,36 @@ section {
   margin-top: 0;
 }
 
+about {
+  margin-top: 550px;
+  position:absolute;
+}
+
 .about-box {
   max-width: 400px;
-  margin: 50px auto 0;
-}
+  margin: 20px auto 0;
+ }
 media (min-width: 992px) {
   .about-box {
     margin: 20px auto 0;
   }
 }  
 .about-box p{
-	margin-bottom: 20px;
+	margin-bottom: 100px;
 }
 
 .no-padding {
   padding: 0;
 }
 
-#menu{
+menu{
 	background-color: #222222;
+	margin-top: 250px;
 }
 .menu-box {
   position: relative;
   display: block;
-  width: max 400px;
+  max-width: 650px;
   margin: 0 auto;
 }
 .menu-box .menu-box-caption {
@@ -290,7 +299,7 @@ media (min-width: 992px) {
 .menu-box .menu-box-caption .menu-box-caption-content {
   width: 100%;
   text-align: center;
-  position: relative;
+  position: absolute;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -302,20 +311,20 @@ media (min-width: 992px) {
 .menu-box .menu-box-caption .menu-box-caption-content .menu-name {
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 20px;
 }
 .menu-box .menu-box-caption .menu-box-caption-content .menu-detail {
-  font-size: 18px;
+  font-size: 13px;
 }
 .menu-box:hover .menu-box-caption {
-  opacity: 1;
+  opacity: 0.8;
 }
 @media (min-width: 768px) {
   .menu-box .menu-box-caption .menu-box-caption-content .menu-name {
-    font-size: 22px;
+    font-size: 23px;
   }
   .menu-box .menu-box-caption .menu-box-caption-content .menu-detail {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 .no-gutter > [class*='col-'] {
@@ -338,7 +347,7 @@ img::selection {
 }
 img::-moz-selection {
   color: white;
-  background: transparent;
+  background: #222222;
 }
 
 footer {
@@ -457,15 +466,17 @@ body {
 
 log-in{
 	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; 
-	color:#666; 
-	font-size:14px; color:#333}
+	color:#222222; 
+	font-size:14px; color:#333;
+	margin-top: 250px;
+	}
 li,ul,body,input{margin:0; padding:0; list-style:none}
 #login-form{
 	width:350px; 
 	background:#FFF; 
 	margin:0 auto; 
 	margin-top:70px; 
-	background:#f8f8f8; 
+	background:#f4f4f4; 
 	overflow:hidden; 
 	border-radius:7px}
 .form-header{
@@ -475,7 +486,7 @@ li,ul,body,input{margin:0; padding:0; list-style:none}
 .form-header li{
 	margin:0; line-height:60px; 
 	width:175px; text-align:center; 
-	background:#eee; font-size:18px; 
+	background:; font-size:18px; 
 	float:left; transition:all 600ms ease}
 
 /*sectiop*/
@@ -483,10 +494,26 @@ li,ul,body,input{margin:0; padding:0; list-style:none}
 .section-out:after{content:''; clear:both; display:table}
 .section-out section{width:350px; float:left}
 
-.login{padding:20px}
+.log-in{padding:20px}
 .ul-list{clear:both; display:table; width:100%}
 .ul-list:after{content:''; clear:both; display:table}
 .ul-list li{ margin:0 auto; margin-bottom:12px}
+.ul-list li btn{
+	border:none; outline:none; background:#fed136; 
+	border-bottom:solid 4px #006699; 
+	font-family: 'Ropa Sans', sans-serif; 
+	margin:0 auto; display:block; 
+	height:40px; width:100%; 
+	padding:0 10px; border-radius:3px; 
+	font-size:22px; color:white; background:#fed136}
+.ul-list li btn:hover,
+.ul-list li btn:focus,
+.ul-list li btn:active,
+.ul-list li btn.active{
+	background: #ff9900;
+	color: black;
+	}
+
 .input{background:#fff; transition:all 800ms; width:247px; 
 	border-radius:3px 0 0 3px; font-family: 'Ropa Sans', sans-serif; 
 	border:solid 1px #ccc; border-right:none; outline:none;
@@ -496,7 +523,7 @@ li,ul,body,input{margin:0; padding:0; list-style:none}
 .login span.icon{
 	width:50px; transition:all 800ms; 
 	text-align:center; vertical-align: center; color:#999; 
-	height:40px; border-radius:0 3px 3px 0; background:#e8e8e8; 
+	height:40px; border-radius:0 3px 3px 0; background:#F4F4F4; 
 	height:40px; line-height:40px; display:inline-block; 
 	border:solid 1px #ccc; border-left:none; font-size:16px}
 .input:focus:invalid{border-color:red}
@@ -504,16 +531,8 @@ li,ul,body,input{margin:0; padding:0; list-style:none}
 .input:focus:valid{border-color:green}
 .input:focus:valid+.icon{border-color:green}
 #check,#check1{top:1px; position:relative}
-.btn{
-	border:none; outline:none; background:#fed136; 
-	border-bottom:solid 4px #006699; 
-	font-family: 'Ropa Sans', sans-serif; 
-	margin:0 auto; display:block; 
-	height:40px; width:100%; 
-	padding:0 10px; border-radius:3px; 
-	font-size:22px; color:white}
 
-.social-login{
+<!--.login-section .social-login{
 	padding:5px 5px; 
 	background:#fed136; 
 	border-top:solid 2px #e8e8e8; 
@@ -526,7 +545,33 @@ li,ul,body,input{margin:0; padding:0; list-style:none}
 	width:35px; 
 	margin:0 3px; 
 	text-decoration:none; 
-	color:#FFFFFF}
+	color:#FFFFFF}-->
+	
+login .ul.social-buttons {
+  	margin-bottom: 0;
+  	vertical-align: top;
+	}
+login ul.social-buttons li a {
+   display: block;
+  	background-color: #222222;
+  	height: 40px;
+  	width: 40px;
+  	border-radius: 100%;
+  	font-size: 20px;
+  	line-height: 40px;
+  	color: white; 
+  	outline: none;
+  	-webkit-transition: all 0.3s;
+  	-moz-transition: all 0.3s;
+  	transition: all 0.3s;
+	}
+login ul.social-buttons li a:hover,
+login ul.social-buttons li a:focus,
+login ul.social-buttons li a:active {
+  	background-color: #fed136;
+	}
+
+	
 .form a i.fa{line-height:35px}
 .remember{width:50%; display:inline-block; clear:both; font-size:14px}
 .remember:nth-child(2){text-align:right}
@@ -546,16 +591,19 @@ li,ul,body,input{margin:0; padding:0; list-style:none}
 /*-----------------------------------
 	Navbar 
 -----------------------------------*/
+shoppingcart{
+	margin-top: 100px;
+	}
 
 .minicart{
-	background:url(../images/sprite.png);
+	background-image:url('../img/sprite.png');
 	background-position: -156px 11px;
 	background-repeat:no-repeat;
 	width: 40px;
 	height: 50px;
 	padding-right: 32px;
 }
-
+<!--
 .navbar{
 	background-color: #4ea6bc;
 	padding: 15px ;
@@ -571,7 +619,7 @@ li,ul,body,input{margin:0; padding:0; list-style:none}
 
 .navbar-brand:hover{
 	color: #fff;
-}
+}-->
 
 /*-----------------------------------
 	Breadcrumb 
@@ -676,7 +724,7 @@ li,ul,body,input{margin:0; padding:0; list-style:none}
 	text-transform: uppercase;
 	padding: 0;
 	box-shadow: 0 0 0;
-	background-color: #f2f6f9;
+	background-color:#EEEEEE;
 }
 
 .columnCaptions span:first-child{
@@ -715,12 +763,12 @@ li,ul,body,input{margin:0; padding:0; list-style:none}
 
 
 .popbtn{
-	background-color: #e6edf3;
+	background-color: #eeeeee;
 	margin-left: 25px;
-	height: 63px;
+	height: 33px;
 	width: 40px;
 	padding: 32px 0 0 14px !important;
-	float: right;
+	float: left;
 	cursor: pointer;
 }
 
@@ -729,7 +777,7 @@ li,ul,body,input{margin:0; padding:0; list-style:none}
 	height: 0; 
 	border-left: 6px solid transparent;
 	border-right: 6px solid transparent;
-	border-top: 6px solid #858e97;
+	border-top: 6px solid #222222;
 }
 
 .price{
@@ -767,13 +815,21 @@ li,ul,body,input{margin:0; padding:0; list-style:none}
 }
 
 .order a{
-	background-color: #f08573;
-	color: #fbfffa;
+	background-color: #FFAC00;
+	color: #222222;
 	font-weight: bold;
 	border-radius: 2px;
 	padding: 20px 30px;
 }
 
+.order a:hover,
+.order a:focus,
+.order a:active,
+.order a:active{
+	background-color:#EA2C26;
+	color: #fed136;
+	font-weight:bolder;
+}
 
 /* Popovers */
 

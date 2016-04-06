@@ -11,20 +11,16 @@
   <title> &hearts; Party Platters &amp; Caterers &reg;</title>
 	<!-- Bootstrap Core CSS -->
 	<link rel="stylesheet" href="css/bootstrap.css" type="text/css"/>
-	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<!--<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>-->
 
 	<!-- Custom CSS -->
 	<link rel="stylesheet" href="css/creative css.css" type="text/css"/>
-	<link rel="stylesheet" href="css/custom.css"type="text/css"/>
-	<link rel="stylesheet" href="js/jquery-1.11.0.min.js"type="text/css"/>
-	<link rel="stylesheet" href="css/animate.min.css"type="text/css"/>
+	<link rel="stylesheet" href="css/animate.min.css" type="text/css"/>
 
 	<!-- link shopping cart -->
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
-	<link rel="stylesheet" type="text/css" href="../catering_repo/css/bootstrap.min.css"/>
-	<link rel="stylesheet" type="text/css" href="../catering_repo/css/custom.css"/>	
 
-    <!-- Custom Fonts -->
+   <!-- Custom Fonts -->
    	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css"/>
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'/>
@@ -34,32 +30,30 @@
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'/>
 	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"/>
 
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css"/>
-	
+
 	<!--BS modal login-->
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
-	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+<!--	<link rel="stylesheet" href="css/bootstrap.min.css"/> -->
     <!-- Plugin CSS -->
     <link rel="stylesheet" href="" type="text/css"/>
 
-	<script src="js/jquery-1.12.1.min.js"></script>
+<!--<script src="js/jquery-1.12.1.min.js"></script>
 	<script src="js/script.js" type="text/javascript"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>-->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-	<style type="text/css">
+<style type="text/css">
 	
 	.nav_color {
 		background-color: black;
-		background-opacity: 0.5;
+		background-color: opacity: -1.8;
 		border-color: transparent;
 		}
-	.page-scroll { 
+<!--		.page-scroll { 
 		color: red; 
 		}
 	.navbar-default .navbar-brand {
@@ -71,15 +65,15 @@
 	.navbar-default .navbar-brand:active,
 	.navbar-default .navbar-brand.active {
 		color:#FFAC00;
-	}
+		}
 	.navbar-default .nav li a {
 		color: #fed136;
 		}
 	.navbar-default .nav li a:hover,
 	.navbar-default .nav li a:focus {
   		color:#FFAC00;
-  		}
-	</style>
+  		} -->
+	</style> 
  </head>
 
 <body id="page-top">
@@ -127,11 +121,11 @@
 
 	<header>
 		<div class="container">  
-	       <div class="intro-text">Welcome to
+	       <div class="intro-text">WELCOME TO
                 <div class="intro-lead-in"> 
                 <b>Party Platters &amp; Caterers &reg;</b></div> 
                 <div class="intro-heading">Let's Get The Party Started!</div>
-                <a href="#menu" class="page-scroll btn btn-xl" icon-size="30px">
+                <a href="#menu" class="page-scroll btn btn-xl" >
                 <span class="glyphicon glyphicon-glass"></span></a>
                 <!--<i class="fa fa-cutlery">-->
             </div>
@@ -199,7 +193,7 @@
         <div class="container-fluid">
             <div class="row no-gutter">       
 				<div class="col-lg-4 col-sm-6">
-				    <a href="#Deep-FilledVol-Au-Vents" class="menu-box">
+				    <a href="#Deep-FilledVol-Au-Vents" class="menu-box" data-toggle="modal">
                         <img src="img/veg vol.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
                             <div class="menu-box-caption-content">
@@ -214,9 +208,44 @@
                         </div>
                     </a>
                 </div>			
-			
+		   <!-- Menu Modal 1 -->
+	<div class="menu-modal modal fade" id="Deep-FilledVol-Au-Vents" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Menu Details Go Here -->
+                            <h3>Deep-Filled Vol-Au-Vents</h3>
+                            <p class="item-intro text-muted">Mouthwatering light puff pastry cases are deliciously filled with chicken 
+                                    and asparagus, Lochmuir™; salmon and watercress and bacon and mushroom
+							 </p>
+							<img src="img/veg vol.jpg" class="img-responsive img-centered" alt=""/>
+                            
+                            <p>Item details
+							 </p>
+							<ul class="list-inline" style="list-style-type:circle"> 
+								<li>Weight: 540 g</li>
+ 								<li>Suitable for Freezing: Yes</li>
+								<li>Not suitable for vegetarians and vegans</li>
+								<li>Consume Within: 5 days</li>
+							 </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Back </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	
             	<div class="col-lg-4 col-sm-6">
-                    <a href="#" class="menu-box">
+                    <a href="#ChickenLollipops" class="menu-box" data-toggle="modal">
                         <img src="img/asian style chicken lollipop.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
                             <div class="menu-box-caption-content">
@@ -231,9 +260,45 @@
                         </div>
                     </a>
                 </div>
+		   <!-- Menu Modal 2 -->
+	<div class="menu-modal modal fade" id="ChickenLollipops" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Menu Details Go Here -->
+                            <h3>Chicken Lollipops</h3>
+                            <p class="item-intro text-muted">Mouthwatering light puff pastry cases are deliciously filled with chicken 
+                                    and asparagus, Lochmuir™; salmon and watercress and bacon and mushroom
+							 </p>
+							<img src="img/asian style chicken lollipop.jpg" class="img-responsive img-centered" alt=""/>
+                            
+                            <p>Item details
+							 </p>
+							<ul class="list-inline" style="list-style-type:circle"> 
+								<li>Weight: 540 g</li>
+ 								<li>Suitable for Freezing: Yes</li>
+								<li>Not suitable for vegetarians and vegans</li>
+								<li>Consume Within: 5 days</li>
+							 </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Back </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
                 
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="menu-box">
+                    <a href="#ItalianBreadSelection" class="menu-box" data-toggle="modal">
                         <img src="img/italian breaad seletion.jpg"class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
                             <div class="menu-box-caption-content">
@@ -248,9 +313,44 @@
                         </div>
                     </a>
                 </div>
+		   <!-- Portfolio Modal 3 -->
+	<div class="menu-modal modal fade" id="ItalianBreadSelection" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Menu Details Go Here -->
+                            <h3>Italian Bread Selection</h3>
+                            <p class="item-intro text-muted">Mouthwatering light puff pastry cases are deliciously filled with chicken 
+                                    and asparagus, Lochmuir™; salmon and watercress and bacon and mushroom
+							 </p>
+							<img src="img/italian breaad seletion.jpg" class="img-responsive img-centered" alt=""/>
+                            
+                            <p>Item details
+							 </p>
+							<ul class="list-inline" style="list-style-type:circle"> 
+								<li>Weight: 540 g</li>
+ 								<li>Suitable for Freezing: Yes</li>
+								<li>Not suitable for vegetarians and vegans</li>
+								<li>Consume Within: 5 days</li>
+							 </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Back </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
                 
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="menu-box"> 
+                    <a href="#LuxuryCanape" class="menu-box" data-toggle="modal"> 
                         <img src="img/luxury canape selections.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
                             <div class="menu-box-caption-content">
@@ -265,9 +365,45 @@
                         </div>
                     </a>
                 </div>
+		   <!-- Menu Modal 4 -->
+	<div class="menu-modal modal fade" id="LuxuryCanape" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Menu Details Go Here -->
+                            <h3>Luxury Canape</h3>
+                            <p class="item-intro text-muted">Mouthwatering light puff pastry cases are deliciously filled with chicken 
+                                    and asparagus, Lochmuir™; salmon and watercress and bacon and mushroom
+							 </p>
+							<img src="img/luxury canape selections.jpg" class="img-responsive img-centered" alt=""/>
+                            
+                            <p>Item details
+							 </p>
+							<ul class="list-inline" style="list-style-type:circle"> 
+								<li>Weight: 540 g</li>
+ 								<li>Suitable for Freezing: Yes</li>
+								<li>Not suitable for vegetarians and vegans</li>
+								<li>Consume Within: 5 days</li>
+							 </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Back </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
                 
 				<div class="col-lg-4 col-sm-6">
-                    <a href="#" class="menu-box">
+                    <a href="#QuicheBites" class="menu-box"data-toggle="modal">
                         <img src="img/quiche bites.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
                             <div class="menu-box-caption-content">
@@ -282,9 +418,45 @@
                         </div>
                     </a>
                 </div>
+		   <!-- Menu Modal 5 -->
+	<div class="menu-modal modal fade" id="QuicheBites" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Menu Details Go Here -->
+                            <h3>Quiche Bites</h3>
+                            <p class="item-intro text-muted">Mouthwatering light puff pastry cases are deliciously filled with chicken 
+                                    and asparagus, Lochmuir™; salmon and watercress and bacon and mushroom
+							 </p>
+							<img src="img/quiche bites.jpg" class="img-responsive img-centered" alt=""/>
+                            
+                            <p>Item details
+							 </p>
+							<ul class="list-inline" style="list-style-type:circle"> 
+								<li>Weight: 540 g</li>
+ 								<li>Suitable for Freezing: Yes</li>
+								<li>Not suitable for vegetarians and vegans</li>
+								<li>Consume Within: 5 days</li>
+							 </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Back </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
                 
                  <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="menu-box">
+                    <a href="#JumboTigerPrawn" class="menu-box"data-toggle="modal">
                         <img src="img/jumbo breaded tiger prawn.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
                             <div class="menu-box-caption-content">
@@ -298,9 +470,45 @@
                         </div>
                     </a>
                 </div>
+		   <!-- Menu Modal 6 -->
+	<div class="menu-modal modal fade" id="JumboTigerPrawn" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Menu Details Go Here -->
+                            <h3>Jumbo Tiger Prawn</h3>
+                            <p class="item-intro text-muted">Mouthwatering light puff pastry cases are deliciously filled with chicken 
+                                    and asparagus, Lochmuir™; salmon and watercress and bacon and mushroom
+							 </p>
+							<img src="img/jumbo breaded tiger prawn.jpg" class="img-responsive img-centered" alt=""/>
+                            
+                            <p>Item details
+							 </p>
+							<ul class="list-inline" style="list-style-type:circle"> 
+								<li>Weight: 540 g</li>
+ 								<li>Suitable for Freezing: Yes</li>
+								<li>Not suitable for vegetarians and vegans</li>
+								<li>Consume Within: 5 days</li>
+							 </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Back </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
                             
 				<div class="col-lg-4 col-sm-6">
-                    <a href="#" class="menu-box">
+                    <a href="#ChickenKebab" class="menu-box"data-toggle="modal">
                         <img src="img/kebabs.jpg"class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
                             <div class="menu-box-caption-content">
@@ -314,11 +522,47 @@
                         </div>
                     </a>
                 </div>
+		   <!-- Menu Modal 7 -->
+	<div class="menu-modal modal fade" id="ChickenKebab" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Menu Details Go Here -->
+                            <h3>Chicken Kebab</h3>
+                            <p class="item-intro text-muted">Mouthwatering light puff pastry cases are deliciously filled with chicken 
+                                    and asparagus, Lochmuir™; salmon and watercress and bacon and mushroom
+							 </p>
+							<img src="img/kebabs.jpg"class="img-responsive img-centered" alt=""/>
+                            
+                            <p>Item details
+							 </p>
+							<ul class="list-inline" style="list-style-type:circle"> 
+								<li>Weight: 540 g</li>
+ 								<li>Suitable for Freezing: Yes</li>
+								<li>Not suitable for vegetarians and vegans</li>
+								<li>Consume Within: 5 days</li>
+							 </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Back </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 			
 				<div class="col-lg-4 col-sm-6">
-                    <a href="#" class="menu-box">
+                    <a href="#LargeSushiPlate" class="menu-box" data-toggle="modal">
                         <img src="img/Large sushi plates.jpg" class="img-responsive img-centered" alt=""/>
-                        <div class="menu-box-caption">
+                        <div class="menu-box-caption" data-toggle="modal">
                             <div class="menu-box-caption-content">
                                 <div class="menu-name">
                                     Large Sushi Plate
@@ -330,11 +574,47 @@
                         </div>
                     </a>
                 </div>
+		   <!-- Menu Modal 8 -->
+	<div class="menu-modal modal fade" id="LargeSushiPlate" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Menu Details Go Here -->
+                            <h3>Large Sushi Plate</h3>
+                            <p class="item-intro text-muted">Mouthwatering light puff pastry cases are deliciously filled with chicken 
+                                    and asparagus, Lochmuir™; salmon and watercress and bacon and mushroom
+							 </p>
+							<img src="img/Large sushi plates.jpg" class="img-responsive img-centered" alt=""/>
+                            
+                            <p>Item details
+							 </p>
+							<ul class="list-inline" style="list-style-type:circle"> 
+								<li>Weight: 540 g</li>
+ 								<li>Suitable for Freezing: Yes</li>
+								<li>Not suitable for vegetarians and vegans</li>
+								<li>Consume Within: 5 days</li>
+							 </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Back </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
                 
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="menu-box">
+                    <a href="#ChickenYakitori" class="menu-box" data-toggle="modal">
                         <img src="img/chicken yakitori kebabs.jpg" class="img-responsive img-centered" alt=""/>
-                        <div class="menu-box-caption">
+                        <div class="menu-box-caption" data-toggle="modal">
                             <div class="menu-box-caption-content">
                                 <div class="menu-name">
                                     Chicken Yakitori
@@ -346,11 +626,47 @@
                         </div>
                     </a>
                 </div>
+		   <!-- Menu Modal 9 -->
+	<div class="menu-modal modal fade" id="ChickenYakitori" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Menu Details Go Here -->
+                            <h3>Chicken Yakitori</h3>
+                            <p class="item-intro text-muted">Mouthwatering light puff pastry cases are deliciously filled with chicken 
+                                    and asparagus, Lochmuir™; salmon and watercress and bacon and mushroom
+							 </p>
+							<img src="img/chicken yakitori kebabs.jpg" class="img-responsive img-centered" alt=""/>
+                            
+                            <p>Item details
+							 </p>
+							<ul class="list-inline" style="list-style-type:circle"> 
+								<li>Weight: 540 g</li>
+ 								<li>Suitable for Freezing: Yes</li>
+								<li>Not suitable for vegetarians and vegans</li>
+								<li>Consume Within: 5 days</li>
+							 </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Back </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="menu-box">
-                        <img src="img/whole fillets of beef.jpg"class="img-responsive img-centered" alt=""/>
-                        <div class="menu-box-caption">
+                    <a href="#FilletofBeef" class="menu-box"data-toggle="modal">
+                        <img src="img/whole fillets of beef.jpg" class="img-responsive img-centered" alt=""/>
+                        <div class="menu-box-caption" data-toggle="modal">
                             <div class="menu-box-caption-content">
                                 <div class="menu-name">
                                     Fillet of Beef
@@ -363,10 +679,46 @@
                         </div>
                     </a>
                 </div>
+		   <!-- Menu Modal 10 -->
+	<div class="menu-modal modal fade" id="FilletofBeef" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Menu Details Go Here -->
+                            <h3>Fillet of Beef</h3>
+                            <p class="item-intro text-muted">Mouthwatering light puff pastry cases are deliciously filled with chicken 
+                                    and asparagus, Lochmuir™; salmon and watercress and bacon and mushroom
+							 </p>
+							<img src="img/whole fillets of beef.jpg" class="img-responsive img-centered" alt=""/>
+                            
+                            <p>Item details
+							 </p>
+							<ul class="list-inline" style="list-style-type:circle"> 
+								<li>Weight: 540 g</li>
+ 								<li>Suitable for Freezing: Yes</li>
+								<li>Not suitable for vegetarians and vegans</li>
+								<li>Consume Within: 5 days</li>
+							 </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Back </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 				<div class="col-lg-4 col-sm-6">
-                    <a href="#" class="menu-box">
-                        <img src="img/Dressed Canadian Lobsters.jpg"class="img-responsive img-centered" alt=""/>
+                    <a href="#CanadianLobsters" class="menu-box" data-toggle="modal">
+                        <img src="img/Dressed Canadian Lobsters.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
                             <div class="menu-box-caption-content">
                                 <div class="menu-name">
@@ -379,9 +731,45 @@
                         </div>
                     </a>
                 </div>
+		   <!-- Menu Modal 11 -->
+	<div class="menu-modal modal fade" id="CanadianLobsters" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Menu Details Go Here -->
+                            <h3>Canadian Lobsters</h3>
+                            <p class="item-intro text-muted">Succulent lobster halves are topped with a luxurious lobster 
+                            mousse and garnished with fresh asparagus
+							 </p>
+							<img src="img/Dressed Canadian Lobsters.jpg" class="img-responsive img-centered" alt=""/>
+                            
+                            <p>Item details
+							 </p>
+							<ul class="list-inline" style="list-style-type:circle"> 
+								<li>Weight: 540 g</li>
+ 								<li>Suitable for Freezing: Yes</li>
+								<li>Not suitable for vegetarians and vegans</li>
+								<li>Consume Within: 5 days</li>
+							 </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Back </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
                 
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="menu-box">
+                    <a href="#WingRibofBeef" class="menu-box" data-toggle="modal">
                         <img src="img/Wing rib of beef.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
                             <div class="menu-box-caption-content">
@@ -396,9 +784,45 @@
                         </div>
                     </a>
                 </div>
+		   <!-- Menu Modal 12 -->
+	<div class="menu-modal modal fade" id="WingRibofBeef" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Menu Details Go Here -->
+                            <h3>Wing Rib of Beef</h3>
+                            <p class="item-intro text-muted">
+                            	Our Bone Wing Rib of Beef is prepared and trimmed by skilled butchers and 
+                               dry aged for 28 days to make it wonderfully tender and succulent				 </p>
+							<img src="img/Wing rib of beef.jpg" class="img-responsive img-centered" alt=""/>
+                            
+                            <p>Item details
+							 </p>
+							<ul class="list-inline" style="list-style-type:circle"> 
+								<li>Weight: 540 g</li>
+ 								<li>Suitable for Freezing: Yes</li>
+								<li>Not suitable for vegetarians and vegans</li>
+								<li>Consume Within: 5 days</li>
+							 </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Back </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 				
 				<div class="col-lg-4 col-sm-6">
-                    <a href="#" class="menu-box">
+                    <a href="#SalmonTerrine" class="menu-box" data-toggle="modal">
                         <img src="img/salmon terrine.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
                             <div class="menu-box-caption-content">
@@ -407,15 +831,52 @@
                                 </div>
                                 <div class="menu-detail text-faded">
                                     Scottish lochmuir™ salmon terrine, topped with oak smoked salmon and 
-                                    hand garnished with a soft cheese mousse and king prawns.
+                                    hand garnished with a soft cheese mousse and king prawns
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
+		   <!-- Menu Modal 13 -->
+	<div class="menu-modal modal fade" id="SalmonTerrine" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Menu Details Go Here -->
+                            <h2>Salmon Terrine</h2>
+                            <p class="item-intro text-muted">
+                            Scottish lochmuir™ salmon terrine, topped with oak smoked salmon and 
+                                    hand garnished with a soft cheese mousse and king prawns
+							 </p>
+							<img src="img/salmon terrine.jpg" class="img-responsive img-centered" alt=""/>
+                            
+                            <p>Item details
+							 </p>
+							<ul class="list-inline" style="list-style-type:circle"> 
+								<li>Weight: 540 g</li>
+ 								<li>Suitable for Freezing: Yes</li>
+								<li>Not suitable for vegetarians and vegans</li>
+								<li>Consume Within: 5 days</li>
+							 </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Back </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 				<div class="col-lg-4 col-sm-6">
-                    <a href="#" class="menu-box">
+                    <a href="#PrawnDimsumSelection" class="menu-box" data-toggle="modal">
                         <img src="img/prawn dimsum selections.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
                             <div class="menu-box-caption-content">
@@ -429,9 +890,45 @@
                         </div>
                     </a>
                 </div>
+		   <!-- Menu Modal 14 -->
+	<div class="menu-modal modal fade" id="PrawnDimsumSelection" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Menu Details Go Here -->
+                            <h3>Prawn Dimsum Selection</h3>
+                            <p class="item-intro text-muted">Mouthwatering light puff pastry cases are deliciously filled with chicken 
+                                    and asparagus, Lochmuir™; salmon and watercress and bacon and mushroom
+							 </p>
+							<img src="img/prawn dimsum selections.jpg" class="img-responsive img-centered" alt=""/>
+                            
+                            <p>Item details
+							 </p>
+							<ul class="list-inline" style="list-style-type:circle"> 
+								<li>Weight: 540 g</li>
+ 								<li>Suitable for Freezing: Yes</li>
+								<li>Not suitable for vegetarians and vegans</li>
+								<li>Consume Within: 5 days</li>
+							 </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Back </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
                 
  				<div class="col-lg-4 col-sm-6">
-                    <a href="#" class="menu-box">
+                    <a href="#BeefWellingtons" class="menu-box"data-toggle="modal">
                         <img src="img/Beef Wellingtons.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
                             <div class="menu-box-caption-content">
@@ -445,9 +942,45 @@
                         </div>
                     </a>
                 </div>
+		   <!-- Menu Modal 15 -->
+	<div class="menu-modal modal fade" id="BeefWellingtons" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Menu Details Go Here -->
+                            <h3>Beef Wellingtons</h3>
+                            <p class="item-intro text-muted">MIndividual beef Wellingtons – meltingly tender beef fillet, 
+                            rich mushroom and chicken liver pate duxelle, wrapped in buttery puff
+							 </p>
+							<img src="img/Beef Wellingtons.jpg" class="img-responsive img-centered" alt=""/>
+                            
+                            <p>Item details
+							 </p>
+							<ul class="list-inline" style="list-style-type:circle"> 
+								<li>Weight: 540 g</li>
+ 								<li>Suitable for Freezing: Yes</li>
+								<li>Not suitable for vegetarians and vegans</li>
+								<li>Consume Within: 5 days</li>
+							 </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Back </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
                 
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="menu-box">
+                    <a href="#PetiteAssortments" class="menu-box" data-toggle="modal">
                         <img src="img/petite assortments.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
                             <div class="menu-box-caption-content">
@@ -462,9 +995,45 @@
                         </div>
                     </a>
                 </div>
+		   <!-- Menu Modal 16 -->
+	<div class="menu-modal modal fade" id="PetiteAssortments" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Menu Details Go Here -->
+                            <h3>Petite Assortments</h3>
+                            <p class="item-intro text-muted">    
+                            Irresistible combination of chocolate nibbles, 
+                            16 little squares of millionaire's shortbread and 16 triple chocolate tiffins							 </p>
+							<img src="img/petite assortments.jpg"  class="img-responsive img-centered" alt=""/>
+                            
+                            <p>Item details
+							 </p>
+							<ul class="list-inline" style="list-style-type:circle"> 
+								<li>Weight: 540 g</li>
+ 								<li>Suitable for Freezing: Yes</li>
+								<li>Not suitable for vegetarians and vegans</li>
+								<li>Consume Within: 5 days</li>
+							 </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Back </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 				
 				<div class="col-lg-4 col-sm-6">
-                    <a href="#" class="menu-box">
+                    <a href="#MiniWrapSlices" class="menu-box" data-toggle="modal">
                         <img src="img/mini wrap slices.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
                             <div class="menu-box-caption-content">
@@ -479,9 +1048,45 @@
                         </div>
                     </a>
                 </div>
+		   <!-- Menu Modal 17 -->
+	<div class="menu-modal modal fade" id="MiniWrapSlices" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Menu Details Go Here -->
+                            <h3>Mini Wrap Slices</h3>
+                            <p class="item-intro text-muted">
+                            Mouthwatering mini wrap slices in four varieties: 
+                            Hoisin duck, chicken fajita, Mexican three-bean, plus chicken ceasar							 </p>
+							<img src="img/mini wrap slices.jpg" class="img-responsive img-centered" alt=""/>
+                            
+                            <p>Item details
+							 </p>
+							<ul class="list-inline" style="list-style-type:circle"> 
+								<li>Weight: 540 g</li>
+ 								<li>Suitable for Freezing: Yes</li>
+								<li>Not suitable for vegetarians and vegans</li>
+								<li>Consume Within: 5 days</li>
+							 </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Back </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
                 
 			<div class="col-lg-4 col-sm-6">
-                    <a href="#" class="menu-box">
+                    <a href="#MiniFruitTartlets" class="menu-box" data-toggle="modal">
                         <img src="img/mini fresh fruit tartlets.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
                             <div class="menu-box-caption-content">
@@ -496,9 +1101,45 @@
                         </div>
                     </a>
                 </div>
+		   <!-- Menu Modal 18 -->
+	<div class="menu-modal modal fade" id="MiniFruitTartlets" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Menu Details Go Here -->
+                            <h3>Mini Fruit Tartlets</h3>
+                            <p class="item-intro text-muted">
+                            These gorgeous all-butter tartlets are filled with a rich, 
+                            thick crème pâtissière and a colourful selection of fresh fruit				 </p>
+							<img src="img/asian style chicken lollipop.jpg" class="img-responsive img-centered" alt=""/>
+                            
+                            <p>Item details
+							 </p>
+							<ul class="list-inline" style="list-style-type:circle"> 
+								<li>Weight: 540 g</li>
+ 								<li>Suitable for Freezing: Yes</li>
+								<li>Not suitable for vegetarians and vegans</li>
+								<li>Consume Within: 5 days</li>
+							 </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Back </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 				
 				<div class="col-lg-4 col-sm-6">
-                    <a href="#" class="menu-box">
+                    <a href="#PetitePatisserie" class="menu-box" data-toggle="modal">
                         <img src="img/petite pattiserie.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
                             <div class="menu-box-caption-content">
@@ -512,9 +1153,44 @@
                         </div>
                     </a>
                 </div>
+		   <!-- Menu Modal 19 -->
+	<div class="menu-modal modal fade" id="PetitePatisserie" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Menu Details Go Here -->
+                            <h3>Petite Patisserie</h3>
+                            <p class="item-intro text-muted">A truly scrumptious collection of 
+                            20 handcrafted sweet treats made with fresh cream 							 </p>
+							<img src="img/petite pattiserie.jpg" class="img-responsive img-centered" alt=""/>
+                            
+                            <p>Item details
+							 </p>
+							<ul class="list-inline" style="list-style-type:circle"> 
+								<li>Weight: 540 g</li>
+ 								<li>Suitable for Freezing: Yes</li>
+								<li>Not suitable for vegetarians and vegans</li>
+								<li>Consume Within: 5 days</li>
+							 </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Back </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
                 
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="menu-box">
+                    <a href="#FruityJellies" class="menu-box"data-toggle="modal">
                         <img src="img/mini jellies.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
                             <div class="menu-box-caption-content">
@@ -528,9 +1204,44 @@
                         </div>
                     </a>
                 </div>
+		   <!-- Menu Modal 20 -->
+	<div class="menu-modal modal fade" id="FruityJellies" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Menu Details Go Here -->
+                            <h3>Fruity Jellies</h3>
+                            <p class="item-intro text-muted">
+                            Light and refreshing jellies in two fab flavours - raspberry and orange							 </p>
+							<img src="img/mini jellies.jpg" class="img-responsive img-centered" alt=""/>
+                            
+                            <p>Item details
+							 </p>
+							<ul class="list-inline" style="list-style-type:circle"> 
+								<li>Weight: 540 g</li>
+ 								<li>Suitable for Freezing: Yes</li>
+								<li>Not suitable for vegetarians and vegans</li>
+								<li>Consume Within: 5 days</li>
+							 </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Back </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 				
 				<div class="col-lg-4 col-sm-6">
-                    <a href="#" class="menu-box">
+                    <a href="#CheesecakeBites" class="menu-box" data-toggle="modal">
                         <img src="img/cheesecake bites.jpg"class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
                             <div class="menu-box-caption-content">
@@ -544,6 +1255,42 @@
                         </div>
                     </a>
                 </div>
+		   <!-- Menu Modal 21 -->
+	<div class="menu-modal modal fade" id="CheesecakeBites" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Menu Details Go Here -->
+                            <h3>Cheesecake Bites</h3>
+                            <p class="item-intro text-muted">A selection of mini raspberry and white chocolate 
+                            cheesecakes and mini chocolate chunk cheesecakes
+							 </p>
+							<img src="img/cheesecake bites.jpg" class="img-responsive img-centered" alt=""/>
+                            
+                            <p>Item details
+							 </p>
+							<ul class="list-inline" style="list-style-type:circle"> 
+								<li>Weight: 540 g</li>
+ 								<li>Suitable for Freezing: Yes</li>
+								<li>Not suitable for vegetarians and vegans</li>
+								<li>Consume Within: 5 days</li>
+							 </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Back </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
                                           
 			</div>
 		</div>
@@ -602,8 +1349,8 @@
 			 		<i class="fa fa-lock" vertical_align="center"></i>
 			 	</span></li>
 			 <li><span class="remember">
-			 		<input type="checkbox"value=""checked id="check"/> 
-			 		<label>Remember Me</label>
+			 		<input type="checkbox"value=""checked id="check" /> 
+			 		<label >Remember Me </label>
 			 	 </span>
 			 	 <span class="remember">
 			 	 	<a href="#">Forget Password</a>
@@ -677,7 +1424,7 @@
 			<div class="col-md-5 col-sm-12">
 				<div class="bigcart"></div>
 				<h1>Your shopping cart</h1>
-				<p>
+				<p>Party Platters &amp; Caterers &reg;
 				</p>
 			</div>
 			
@@ -775,57 +1522,22 @@
          </div>
      </footer>
 
-   <!-- Portfolio Modal 1 -->
-	<div class="menu-modal modal fade" id="Deep-FilledVol-Au-Vents" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Menu Details Go Here -->
-                            <h2>Deep-Filled Vol-Au-Vents</h2>
-                            <img src="img/veg vol.jpg" class="img-responsive img-centered" alt=""/>
-                            <p class="item-intro text-muted">Mouthwatering light puff pastry cases are deliciously filled with chicken 
-                                    and asparagus, Lochmuir™; salmon and watercress and bacon and mushroom
-							 </p>
-                            <p>Item details
-								<ul class="list-inline" style="list-style-type:circle"> 
-									<li>Weight: 540 g</li>
- 									<li>Suitable for Freezing: Yes</li>
-									<li>Not suitable for vegetarians and vegans</li>
-									<li>Consume Within: 5 days</li>
-								 </ul>
-							 </p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Back </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
 
 
     <!-- jQuery -->
-    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js" type="text/javascript"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/jquery.fittext.js"></script>
-    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.easing.min.js" type="text/javascript"></script>
+    <script src="js/jquery.fittext.js" type="text/javascript"></script>
+    <script src="js/wow.min.js" type="text/javascript"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="js/creative.js"></script>
+    <script src="js/creative.js" type="text/javascript"></script>
 
- 
-</body>
+</div>
+</body> 
 </html>

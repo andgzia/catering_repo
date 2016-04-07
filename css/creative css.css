@@ -3,6 +3,7 @@ body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
 .text-muted {
   color:#777777;
 }
@@ -43,7 +44,7 @@ h6 {
   margin: 0 auto;
 }
 
-<!-- 
+/* 
 .btn-primary {
   color: #ffffff;
   background-color: #fed136;
@@ -88,7 +89,7 @@ fieldset[disabled] .btn-primary.active {
   color: #fed136;
   background-color: #ffffff;
 }
--->
+*/
 
 .btn {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;  border: none;
@@ -145,7 +146,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default {
-  background-color: #222222;
+  background-color: transparent;
   border-color: transparent;
 }
 .navbar-default .navbar-brand {
@@ -164,6 +165,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-toggle {
   background-color: #fed136;
   border-color: #fed136;
+  data-toggle:collapse; data-target:#bs-example-navbar-collapse-1;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color:white;
@@ -256,7 +258,7 @@ header .intro-text .intro-heading {
 }
 @media (min-width: 768px) {
   header .intro-text {
-    padding-top: 150px;
+    padding-top: 300px;
     padding-bottom: 200px;
     font-size: 28px;
   }
@@ -293,14 +295,15 @@ header .intro-text .intro-heading {
   color: rgba(255, 255, 255, 0.7);
 }
 section {
-  padding: 0px 0;
+  padding: 100px 0;
 }
 .section-heading {
   margin-top: 0;
+  margin-bottom: 15px;
 }
 
 about {
-  margin-top: 1050px;
+  margin-top: 150px;
   position:absolute;
 }
 
@@ -576,7 +579,7 @@ li,ul,body,input{margin:0; padding:0; list-style:none}
 .input:focus:valid+.icon{border-color:green}
 #check,#check1{top:1px; position:relative}
 
-<!--.login-section .social-login{
+.login-section .social-login{
 	padding:5px 5px; 
 	background:#fed136; 
 	border-top:solid 2px #e8e8e8; 
@@ -589,7 +592,7 @@ li,ul,body,input{margin:0; padding:0; list-style:none}
 	width:35px; 
 	margin:0 3px; 
 	text-decoration:none; 
-	color:#FFFFFF}-->
+	color:#FFFFFF}
 	
 login .ul.social-buttons {
   	margin-bottom: 0;
@@ -934,6 +937,7 @@ shoppingcart{
 
 	.navbar{ 
 		padding:10px 0;
+		height: 2cm;
 	}
 	
 	.minicart{
@@ -974,7 +978,7 @@ shoppingcart{
 	}
 
 	.row{
-		padding-bottom:10px;
+		padding-bottom:100px;
 	}
 
 	.quantity{	

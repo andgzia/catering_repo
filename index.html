@@ -42,47 +42,23 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>-->
     <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <script src="../agency/html5shiv.js"></script>
+        <script src="../agency/respond.min.js"></script>
     <![endif]-->
 
 <style type="text/css">
 	
 	.nav_color {
 		background-color: black;
-		background-color: opacity: -1.8;
-		border-color: transparent;
 		}
-<!--		.page-scroll { 
-		color: red; 
-		}
-	.navbar-default .navbar-brand {
-  		color: #fed136;
-  		font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
-		}
-	.navbar-default .navbar-brand:hover,
-	.navbar-default .navbar-brand:focus,
-	.navbar-default .navbar-brand:active,
-	.navbar-default .navbar-brand.active {
-		color:#FFAC00;
-		}
-	.navbar-default .nav li a {
-		color: #fed136;
-		}
-	.navbar-default .nav li a:hover,
-	.navbar-default .nav li a:focus {
-  		color:#FFAC00;
-  		} -->
 	</style> 
  </head>
-
-<body id="page-top">
 
     <nav class="navbar navbar-default navbar-fixed-top nav_color">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <button type="button" class="navbar-toggle" >
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -106,11 +82,11 @@
 			 	<li>
 				 	<a class="page-scroll" href="#contact">Contact</a>
 			     </li>
-				<li>
+			 	<li>
 				 	<a class="page-scroll" href="#login">Login</a>
-				 </li>
+			     </li>
 				<li>
-				 	<a class="page-scroll" href="#shoppingcart"
+ 				 	<a class="page-scroll" href="#shoppingcart" data-toggle="modal"
 				 		class="btn btn-info btn-lg"> Shopping Cart
           				<span class="glyphicon glyphicon-shopping-cart"></span></a>
 				 </li>
@@ -120,6 +96,7 @@
 	</nav>	
 
 	<header>
+	<section id="#page-top">
 		<div class="container">  
 	       <div class="intro-text">WELCOME TO
                 <div class="intro-lead-in"> 
@@ -130,6 +107,7 @@
                 <!--<i class="fa fa-cutlery">-->
             </div>
          </div>
+     </section>
 	</header>
 	
 	<section id="about">
@@ -156,28 +134,28 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="about-box">
-                        <h3>Locations Served :</h3>
+                        <h4>Locations Served :</h4>
                         <p class="text-muted">Jakarta Bogor Depok Tangerang Bekasi 
 						 </p>
                     </div>
                  </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="about-box">
-                        <h3>Average Price :</h3>
+                        <h4>Average Price :</h4>
                         <p class="text-muted">$$$
 						 </p>
                     </div>
                  </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="about-box">
-                        <h3>Cuisine :</h3>
+                        <h4>Cuisine :</h4>
                         <p class="text-muted"> Platters Experts, Dessert Specialists, Western, Fusion, Italian, Sushi
 						 </p>
                     </div>
                  </div>
                	<div class="col-lg-3 col-md-6 text-center">
                     <div class="about-box">
-                        <h3>Off-site catering &amp; home delivery:</h3>
+                        <h4>Off-site catering &amp; home delivery:</h4>
                         <p class="text-muted"> Yes
 						 </p>
                     </div>
@@ -192,7 +170,7 @@
  	<section class="no-padding" id="menu">
         <div class="container-fluid">
             <div class="row no-gutter">       
-				<div class="col-lg-4 col-sm-6">
+				<div class="col-lg-3 col-sm-6">
 				    <a href="#Deep-FilledVol-Au-Vents" class="menu-box" data-toggle="modal">
                         <img src="img/veg vol.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
@@ -244,7 +222,7 @@
         </div>
     </div>
 	
-            	<div class="col-lg-4 col-sm-6">
+            	<div class="col-lg-3 col-sm-6">
                     <a href="#ChickenLollipops" class="menu-box" data-toggle="modal">
                         <img src="img/asian style chicken lollipop.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
@@ -297,7 +275,7 @@
     </div>
 
                 
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-3 col-sm-6">
                     <a href="#ItalianBreadSelection" class="menu-box" data-toggle="modal">
                         <img src="img/italian breaad seletion.jpg"class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
@@ -349,7 +327,7 @@
         </div>
     </div>
                 
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-3 col-sm-6">
                     <a href="#LuxuryCanape" class="menu-box" data-toggle="modal"> 
                         <img src="img/luxury canape selections.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
@@ -402,7 +380,7 @@
     </div>
 
                 
-				<div class="col-lg-4 col-sm-6">
+				<div class="col-lg-3 col-sm-6">
                     <a href="#QuicheBites" class="menu-box"data-toggle="modal">
                         <img src="img/quiche bites.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
@@ -455,7 +433,7 @@
     </div>
 
                 
-                 <div class="col-lg-4 col-sm-6">
+                 <div class="col-lg-3 col-sm-6">
                     <a href="#JumboTigerPrawn" class="menu-box"data-toggle="modal">
                         <img src="img/jumbo breaded tiger prawn.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
@@ -507,7 +485,7 @@
     </div>
 
                             
-				<div class="col-lg-4 col-sm-6">
+				<div class="col-lg-3 col-sm-6">
                     <a href="#ChickenKebab" class="menu-box"data-toggle="modal">
                         <img src="img/kebabs.jpg"class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
@@ -559,7 +537,7 @@
     </div>
 
 			
-				<div class="col-lg-4 col-sm-6">
+				<div class="col-lg-3 col-sm-6">
                     <a href="#LargeSushiPlate" class="menu-box" data-toggle="modal">
                         <img src="img/Large sushi plates.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption" data-toggle="modal">
@@ -611,10 +589,10 @@
     </div>
 
                 
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-3 col-sm-6">
                     <a href="#ChickenYakitori" class="menu-box" data-toggle="modal">
                         <img src="img/chicken yakitori kebabs.jpg" class="img-responsive img-centered" alt=""/>
-                        <div class="menu-box-caption" data-toggle="modal">
+                        <div class="menu-box-caption" >
                             <div class="menu-box-caption-content">
                                 <div class="menu-name">
                                     Chicken Yakitori
@@ -663,7 +641,7 @@
     </div>
 
 
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-3 col-sm-6">
                     <a href="#FilletofBeef" class="menu-box"data-toggle="modal">
                         <img src="img/whole fillets of beef.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption" data-toggle="modal">
@@ -716,7 +694,7 @@
     </div>
 
 
-				<div class="col-lg-4 col-sm-6">
+				<div class="col-lg-3 col-sm-6">
                     <a href="#CanadianLobsters" class="menu-box" data-toggle="modal">
                         <img src="img/Dressed Canadian Lobsters.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
@@ -768,7 +746,7 @@
     </div>
 
                 
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-3 col-sm-6">
                     <a href="#WingRibofBeef" class="menu-box" data-toggle="modal">
                         <img src="img/Wing rib of beef.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
@@ -821,7 +799,7 @@
     </div>
 
 				
-				<div class="col-lg-4 col-sm-6">
+				<div class="col-lg-3 col-sm-6">
                     <a href="#SalmonTerrine" class="menu-box" data-toggle="modal">
                         <img src="img/salmon terrine.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
@@ -875,7 +853,7 @@
     </div>
 
 
-				<div class="col-lg-4 col-sm-6">
+				<div class="col-lg-3 col-sm-6">
                     <a href="#PrawnDimsumSelection" class="menu-box" data-toggle="modal">
                         <img src="img/prawn dimsum selections.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
@@ -927,7 +905,7 @@
     </div>
 
                 
- 				<div class="col-lg-4 col-sm-6">
+ 				<div class="col-lg-3 col-sm-6">
                     <a href="#BeefWellingtons" class="menu-box"data-toggle="modal">
                         <img src="img/Beef Wellingtons.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
@@ -979,7 +957,7 @@
     </div>
 
                 
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-3 col-sm-6">
                     <a href="#PetiteAssortments" class="menu-box" data-toggle="modal">
                         <img src="img/petite assortments.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
@@ -1032,7 +1010,7 @@
     </div>
 
 				
-				<div class="col-lg-4 col-sm-6">
+				<div class="col-lg-3 col-sm-6">
                     <a href="#MiniWrapSlices" class="menu-box" data-toggle="modal">
                         <img src="img/mini wrap slices.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
@@ -1085,7 +1063,7 @@
     </div>
 
                 
-			<div class="col-lg-4 col-sm-6">
+			<div class="col-lg-3 col-sm-6">
                     <a href="#MiniFruitTartlets" class="menu-box" data-toggle="modal">
                         <img src="img/mini fresh fruit tartlets.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
@@ -1138,7 +1116,7 @@
     </div>
 
 				
-				<div class="col-lg-4 col-sm-6">
+				<div class="col-lg-3 col-sm-6">
                     <a href="#PetitePatisserie" class="menu-box" data-toggle="modal">
                         <img src="img/petite pattiserie.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
@@ -1189,7 +1167,7 @@
     </div>
 
                 
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-3 col-sm-6">
                     <a href="#FruityJellies" class="menu-box"data-toggle="modal">
                         <img src="img/mini jellies.jpg" class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
@@ -1240,7 +1218,7 @@
     </div>
 
 				
-				<div class="col-lg-4 col-sm-6">
+				<div class="col-lg-3 col-sm-6">
                     <a href="#CheesecakeBites" class="menu-box" data-toggle="modal">
                         <img src="img/cheesecake bites.jpg"class="img-responsive img-centered" alt=""/>
                         <div class="menu-box-caption">
@@ -1320,8 +1298,8 @@
 
 <!--LOGIN-->
  	
-	<section id="login">
- 	<div class="container">
+<section id="login">
+<div class="container">
     
 	<div id="login-form">
 	 <input type="radio" checked id="login" name="switch" class="hide"/>
@@ -1341,32 +1319,33 @@
 		  <form action="">
 			<ul class="ul-list">
 			 <li><input type="email" required class="input" placeholder="Your Email"/>
-			 	<span class="icon">
-			 		<i class="fa fa-user" vertical_align="center"></i>
+			 	<span class="icon" vertical_align="center">
+			 		<i class="fa fa-user" ></i>
 			 	</span></li>
 			 <li><input type="password" required class="input" placeholder="Password"/>
-			 	<span class="icon">
-			 		<i class="fa fa-lock" vertical_align="center"></i>
+			 	<span class="icon" vertical_align="center">
+			 		<i class="fa fa-lock" ></i>
 			 	</span></li>
 			 <li><span class="remember">
 			 		<input type="checkbox"value=""checked id="check" /> 
 			 		<label >Remember Me </label>
 			 	 </span>
-			 	 <span class="remember">
-			 	 	<a href="#">Forget Password</a>
+			 	 <span class="remember" >
+			 	 	<a href="#" horizontal_align="right">Forget Password</a>
 			 	 </span></li>
 			 <li><input type="submit" value="SIGN IN" class="btn"/></li>
 			</ul>
 		  </form>
 		 </div>
-		<div class="social-buttons">Or sign up with &nbsp;
+		 <div class="social-buttons">Or sign up with &nbsp;
 			<a href="www.facebook.com/" ><i class="fa fa-facebook"></i></a>
 			<a href="www.twitter.com/" ><i class="fa fa-twitter"></i></a>
 			<a href="www.instagram.com/" ><i class="fa fa-instagram"></i></a>
 			<a href="www.google-plus.com/" class="gp"><i class="fa fa-google-plus"></i></a>
 			<a href="www.pinterest.com/" class="in"><i class="fa fa-pinterest-p"></i></a>
-		</div>	 
+		 </div>	 
 	 </section>
+   <div class="section-out">
 	<section class="signup-section">
 		<div class="log-in">
 		 <form action="">
@@ -1393,11 +1372,12 @@
 			<a href="www.google-plus.com/" class="gp"><i class="fa fa-google-plus"></i></a>
 			<a href="www.pinterest.com/" class="in"><i class="fa fa-pinterest-p"></i></a>
 		</div>
-		</section>
-	 </div>
-	 </div>	
-	</div>
 	 </section>
+	 </div>
+	</div>	
+ </div>
+</div>
+</section>
 
 <!---SHOPPING CART-->
 
@@ -1411,70 +1391,80 @@
 			</div>
 		</nav>
 -->		
-	<section id="shoppingcart">
-		<div class="container-fluid breadcrumbBox text-center">
-			<ol class="breadcrumb">
-				<li class="active"><a href="#shoppingcart">Shopping Cart</a></li>
-				<li><a href="#payment">Payment</a></li>
-			</ol>
+ <section id="shoppingcart" data-toggle="modal">
+	<div class="menu-modal modal fade" 
+	 tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+			<div class="container-fluid breadcrumbBox text-center" >
+				<ol class="breadcrumb">
+					<li class="active"><a href="#shoppingcart">Shopping Cart</a></li>
+					<li><a href="#payment">Payment</a></li>
+				</ol>
+			</div>
+			<div class="container text-center">
+				<div class="col-md-5 col-sm-12">
+					<div class="bigcart"></div>
+					<h1>Your shopping cart</h1>
+					<p>Party Platters &amp; Caterers &reg;
+					</p>
+				</div>
+				
+				<div class="col-md-7 col-sm-12 text-left">
+					<ul>
+						<li class="row list-inline columnCaptions">
+							<span>QTY</span>
+							<span>ITEM</span>
+							<span>Price</span>
+						</li>
+						<li class="row">
+							<span class="popbtn"><a class="arrow"></a></span>
+							<span class="quantity">1</span>
+							<span class="itemName">Salmon Terrine</span>
+							<span class="price">IDR 180,000</span>
+						</li>
+						<li class="row">
+							<span class="popbtn"><a class="arrow"></a></span>
+							<span class="quantity">3</span>
+							<span class="itemName">Petite Patisserie</span>
+							<span class="price">IDR 360,000</span>
+						</li>
+						<li class="row">
+							<span class="popbtn"><a class="arrow"></a></span>
+							<span class="quantity">20</span>
+							<span class="itemName">Meatball Lollipops</span>
+							<span class="price">IDR 119.000</span>				
+						</li>
+						<li class="row">
+							<span class="popbtn"><a class="arrow"></a></span>
+							<span class="quantity">18</span>
+							<span class="itemName">Pound of beef</span>
+							<span class="price">IDR 269,000</span>
+						</li>
+						<li class="row">
+							<span class="popbtn"  data-parent="#asd" data-toggle="collapse" data-target="#demo"><a class="arrow"></a></span>
+							<span class="quantity">1</span>
+							<span class="itemName">xxxx</span>
+							<span class="price">IDR 450,000</span>				
+						</li>
+						<li class="row totals">
+							<span class="itemName">Total:</span>
+							<span class="price">IDR 1,694,000</span>
+							<span class="order"> <a class="text-center">ORDER</a></span>
+						</li>
+					</ul>
+                   	<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Back </button>
+				</div>
+			</div>
 		</div>
+	</div>
+  </section>
 		
-		<div class="container text-center">
-
-			<div class="col-md-5 col-sm-12">
-				<div class="bigcart"></div>
-				<h1>Your shopping cart</h1>
-				<p>Party Platters &amp; Caterers &reg;
-				</p>
-			</div>
-			
-			<div class="col-md-7 col-sm-12 text-left">
-				<ul>
-					<li class="row list-inline columnCaptions">
-						<span>QTY</span>
-						<span>ITEM</span>
-						<span>Price</span>
-					</li>
-					<li class="row">
-						<span class="popbtn"><a class="arrow"></a></span>
-						<span class="quantity">1</span>
-						<span class="itemName">Salmon Terrine</span>
-						<span class="price">IDR 180,000</span>
-					</li>
-					<li class="row">
-						<span class="popbtn"><a class="arrow"></a></span>
-						<span class="quantity">3</span>
-						<span class="itemName">Petite Patisserie</span>
-						<span class="price">IDR 360,000</span>
-					</li>
-					<li class="row">
-						<span class="popbtn"><a class="arrow"></a></span>
-						<span class="quantity">20</span>
-						<span class="itemName">Meatball Lollipops</span>
-						<span class="price">IDR 119.000</span>				
-					</li>
-					<li class="row">
-						<span class="popbtn"><a class="arrow"></a></span>
-						<span class="quantity">18</span>
-						<span class="itemName">Pound of beef</span>
-						<span class="price">IDR 269,000</span>
-					</li>
-					<li class="row">
-						<span class="popbtn"  data-parent="#asd" data-toggle="collapse" data-target="#demo"><a class="arrow"></a></span>
-						<span class="quantity">1</span>
-						<span class="itemName">xxxx</span>
-						<span class="price">IDR 450,000</span>				
-					</li>
-					<li class="row totals">
-						<span class="itemName">Total:</span>
-						<span class="price">IDR 1694.000</span>
-						<span class="order"> <a class="text-center">ORDER</a></span>
-					</li>
-				</ul>
-			</div>
-
-		</div>
-
 		<!-- The popover content -->
 
 		<div id="popover" style="display: none">
@@ -1494,7 +1484,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; Party Platters &amp; Caterers &reg; 2016</span>
+                    <span class="copyright">Copyright &copy; Party Platters &amp; Caterers &reg; 2016
+                    </span>
                  </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
@@ -1534,10 +1525,12 @@
     <script src="js/jquery.easing.min.js" type="text/javascript"></script>
     <script src="js/jquery.fittext.js" type="text/javascript"></script>
     <script src="js/wow.min.js" type="text/javascript"></script>
+	<script src="js/cbpAnimatedHeader.js"></script>
+
 
     <!-- Custom Theme JavaScript -->
     <script src="js/creative.js" type="text/javascript"></script>
 
-</div>
+
 </body> 
 </html>

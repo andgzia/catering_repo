@@ -1116,7 +1116,7 @@ img {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
 }
 .img-rounded {
@@ -3402,10 +3402,10 @@ fieldset[disabled] .btn-link:focus {
 }
 .btn-lg,
 .btn-group-lg > .btn {
-  padding: 10px 16px;
+  padding: 5px 8px;
   font-size: 18px;
   line-height: 1.3333333;
-  border-radius: 6px;
+  border-radius: 3px;
 }
 .btn-sm,
 .btn-group-sm > .btn {
@@ -4128,7 +4128,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar {
   position: relative;
-  min-height: 50px;
+  min-height: 30px;
   margin-bottom: 20px;
   border: 1px solid transparent;
 }
